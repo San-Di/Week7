@@ -1,6 +1,7 @@
 package xyz.aungpyaephyo.padc.myanmarattractions.fragments;
 
 import android.content.Context;
+import android.graphics.Paint;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -40,6 +41,12 @@ public class LoginFragment extends Fragment {
     @BindView(R.id.et_password_login)
     EditText edPasswordLogin;
 
+    @BindView(R.id.tv_forget_password)
+    TextView txtForgetPassword;
+
+    @BindView(R.id.tv_do_register_now)
+    TextView txtDoRegister;
+
     private ControllerAccountControl mControllerAccountControl;
 
     @Override
@@ -74,7 +81,10 @@ public class LoginFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.fragment_login, container, false);
         ButterKnife.bind(this, rootView);
 
-        lblLoginTitle.setText(Html.fromHtml(getString(R.string.lbl_registration_title)));
+        txtForgetPassword.setPaintFlags(txtForgetPassword.getPaintFlags() | Paint.UNDERLINE_TEXT_FLAG);
+        txtDoRegister.setPaintFlags(txtDoRegister.getPaintFlags() | Paint.UNDERLINE_TEXT_FLAG);
+
+        lblLoginTitle.setText(Html.fromHtml(getString(R.string.lbl_login_title)));
         edPasswordLogin.setOnTouchListener(new PasswordVisibilityListener());
 
         return rootView;

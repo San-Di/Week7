@@ -14,6 +14,8 @@
     <string name="myanmar_attractions_list_view">ျမန္မာ့ အလွအပမ်ား (ListView)</string>
     <string name="myanmar_attractions_grid_view">ျမန္မာ့ အလွအပမ်ား (GridView)</string>
     <string name="lbl_registration_title"><![CDATA[<b> ျမန္မာ့ အလွ </b>တြင္ စိတ္ျကိုုက္ပါဝင္နိုုင္ရန္ ေအာက္ပါ တိုု့ကိုု ျဖည့္စြက္၍ Register ျပဳလုုပ္ပါ ။]]></string>
+    <string name="lbl_login_title"> <![CDATA[လြန္ခဲ့သော ၃ ရက္အတြင္း <b>ျမန့္မာ့အလွ </b>ွသို့ Travel Destination ၇ ခု အသစ္ ‌ေ၇ာက္ရွိလာပါသည္]]></string>
+
 
     <string-array name="current_residing_country">
         <item>Myanmar</item>
@@ -33,8 +35,8 @@
     <string name="msg_date_of_birth">မိတ္ေဆြ ရဲ့ ေမြးေန့</string>
     <string name="msg_select_your_current_residing_country">မိတ္ေဆြ လက္ရွိေနထိုုင္ေသာ Country အား ေရြးခ်ယ္ပါ</string>
 
-    <string name="link_forget_password">Forget Password?</string>
-    <string name="link_do_register_now">Do register now?</string>
+    <string name="link_forget_password">Password ေမ့သြားလို့လား</string>
+    <string name="link_do_register_now">Register မလုပ္ရေသးပါက ျပ ုလုပ္ရန္</string>
 
     <string name="error_missing_name">Need to enter your name</string>
     <string name="error_missing_email">Need to enter your email address</string>
